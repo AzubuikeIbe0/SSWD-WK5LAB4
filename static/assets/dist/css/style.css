@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#source {
+    margin: 50px 0;
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px; */
+}
+
+article{
+ max-width: 500px;
+ padding: 20px;
+ margin-bottom: 50px;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+img {
+    width: 450px;
+}
